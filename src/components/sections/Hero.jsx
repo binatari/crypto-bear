@@ -4,8 +4,8 @@ import CountDown from "../CountDown";
 const Hero = () => {
   return (
     <div className=" py-24  flex flex-col items-center mt-[103px]">
-      <div className="header-bg text-white w-full mx-auto text-sm leading-[180%] max-w-[460px] flex py-1 mb-11 justify-center">
-        <span>November 30, 2023 | 5:30 PM | Dubai, ATLANTIS, THE PALM</span>
+      <div className="header-bg text-white w-full mx-auto py-3 text-sm leading-[180%] max-w-[460px] flex md:py-1 mb-11 justify-center">
+        <span className="text-center">November 30, 2023 | 5:30 PM | Dubai, ATLANTIS, THE PALM</span>
       </div>
       <img src="/cryptobear.png" className="mb-[60px!important]" />
       <CountDown />

@@ -7,6 +7,7 @@ import About from "./components/sections/About";
 import Topics from "./components/sections/Topics";
 import Speakers from "./components/sections/Speakers";
 import Sponsors from "./components/sections/Sponsors";
+import Footer from "./components/sections/Footer";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -29,6 +30,7 @@ function App() {
         <img src="/date.png" className="w-screen" />
       </div>
       <Sponsors/>
+      <Footer/>
     </div>
   );
 }
