@@ -17,10 +17,10 @@ const HomeNav = ({setter}) => {
           id="navbar-sticky"
         >
           <ul className="flex flex-col text-white text-sm md:items-center p-4 md:p-0 mt-4 font-semibold border  md:flex-row md:space-x-8 md:mt-0 md:border-0">
-            <li>About Event</li>
-            <li>Speakers</li>
-            <li>Sponsors</li>
-            <li>Contact</li>
+            <li><a href="#about">About Event</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <div className="w-full container max-w-[1072px] mx-auto px-10 py-7 md:flex items-center relative justify-between gap-6 mb-[160px]">
         <img src="/register-box.png" className="top-0 absolute left-0 h-full w-full -z-1 "/>
         <h3 className="text-3xl md:text-5xl  leading-[122%] text-[#00D770] w-full max-w-[1072px]">

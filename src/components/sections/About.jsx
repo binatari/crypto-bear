@@ -4,7 +4,7 @@ import { useGlitch } from "react-powerglitch";
 const About = () => {
     const glitch = useGlitch()
   return (
-    <div className="w-full container mx-auto flex-col md:flex-row flex justify-center gap-6">
+    <div id="about" className="w-full container mx-auto flex-col md:flex-row flex justify-center gap-6">
       <img src="/venue-image.png" />
       <div className="max-w-[541px]">
         <h3 ref={glitch.ref} className=" text-3xl md:text-5xl mb-12 leading-[122%] text-[#00D770]">
