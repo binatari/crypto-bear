@@ -49,9 +49,9 @@ export default function HomeSidebar({ show, setter }) {
         </div>
         <div className="flex flex-col">
           <MenuItem name="About Event" route="/" />
-          <MenuItem name="Speakers" route="/#" />
-          <MenuItem name="Sponsors" route="/#" />
-          <MenuItem name="Contact" route="/#" />
+          <MenuItem name="Speakers" route="/#speakers" />
+          <MenuItem name="Sponsors" route="/#sponsors" />
+          <MenuItem name="Contact" route="/#contact" />
         </div>
       </div>
       {show ? <ModalOverlay /> : <></>}
